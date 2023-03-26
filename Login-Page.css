@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: x-large;
+  margin: 80px auto;
+  background-image: url(https://cdn.pixabay.com/photo/2020/07/04/08/34/cactus-5368688_960_720.jpg);
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+}
+
+form {
+  background-color: rgb(151, 189, 133);
+  text-align: center;
+  padding: 20px;
+  width: fit-content;
+  display: inline-block;
+  background-image: url(https://cdn.pixabay.com/photo/2020/07/22/07/04/design-5428299_960_720.jpg);
+}
+
+.div1 :hover {
+  cursor: pointer;
+
+  background-color: darkolivegreen;
+}
+
+.div2 {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 80px;
+  background-color: rgb(72, 95, 72);
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
